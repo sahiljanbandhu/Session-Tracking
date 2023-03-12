@@ -15,9 +15,7 @@ public class Session3 extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		HttpSession httpSession = req.getSession();
 		httpSession.invalidate();
-	
 		PrintWriter printWriter = resp.getWriter();
 		printWriter.write("<html><body><h2>Logout Successfully</h2></body></html>");
 	}
-
 }
