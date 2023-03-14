@@ -54,15 +54,15 @@ body {
 <body>
 	<main id="main-holder">
 		<h1 id="header">How Session Works using Servlet</h1>
-		<form id="form" action="session1" method="post">
-			<table border="2" style="text-align: center; border-collapse: collapse;" cellpadding="10">
-				<tr>
-					<td><label for="name"> NAME: </label></td>
-					<td><input type="text" id="name" name="name"></td>
-				</tr>
-				<tr>
-					<td colspan="2"><input type="submit" value="submit" id="submit"></td>
-				</tr>
+			<form id="form" action="session1" method="post">
+				<table border="2" style="text-align: center; border-collapse: collapse;" cellpadding="10">
+					<tr>
+						<td><label for="name"> NAME: </label></td>
+						<td><input type="text" id="name" name="name"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="submit" id="submit"></td>
+					</tr>
 			</table>
 		</form>
 	</main>
