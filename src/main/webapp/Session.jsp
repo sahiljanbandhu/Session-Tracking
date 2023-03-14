@@ -63,8 +63,8 @@ body {
 					<tr>
 						<td colspan="2"><input type="submit" value="submit" id="submit"></td>
 					</tr>
-			</table>
-		</form>
-	</main>
+				</table>
+			</form>
+	 </main>
 </body>
 </html>
